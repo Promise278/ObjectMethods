@@ -2,7 +2,7 @@
 
 let  personalInfo = { 
     name: 'Promise',
-    age:19,
+    age: 19,
     gender: 'male'
 }
 

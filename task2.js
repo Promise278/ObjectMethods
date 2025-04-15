@@ -4,7 +4,7 @@ let product = {
     users: ["promise", "pius", "obi"],
     fruits: ["mango", "apple", "pear"],
     animals: ["goat", "dog", "lion"],
-    cars: ["Bmw", "Lambo", "ferrari"]
+    cars: ["Bmw", "porshe", "ferrari"]
 }
 
 let keys = Object.keys(product)

@@ -10,13 +10,5 @@ let product = {
 let keys = Object.keys(product)
 let values = Object.values(product)
 
-// console.log("these are the keys of the products", keys)
-// console.log("these are the values of the product", values)
-
-
-
-console.log(keys, values)
-
-keys.forEach((key, i) => {
-    console.log(`${key}: ${values[i]}`)
-})
+console.log("these are the keys of the products", keys)
+console.log("these are the values of the product", values)

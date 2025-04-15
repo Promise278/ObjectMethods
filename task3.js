@@ -8,12 +8,12 @@ let settings = {
 Object.freeze(settings)
 
 
-// if (Object.isFrozen(settings)) {
-//     console.log("settings is in state of lock down cant be change")
-// } else {
-//     settings.theme = "white"
-// }
+if (Object.isFrozen(settings)) {
+    console.log("settings is in state of lock down cant be change")
+} else {
+    settings.theme = "white"
+}
 
 settings.theme = "white"
 
-console.log(Object.isFrozen(settings))
+console.log(settings)
